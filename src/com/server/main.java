@@ -8,8 +8,8 @@ public class main {
 	
 	public static void main(String[] args) {
 		
-		ConnectionServer init = new ConnectionServer();
-		init.connection();
+		ConnectionServer cs = new ConnectionServer(6789);
+		cs.init();
 
 	}
 
